@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SpringBoot 集成Thymeleaf</title>
+</head>
+<style>
+    a{
+        text-decoration: none;
+    }
+</style>
+<body>
+<!—以html标签为载体-->
+<h1>测试Thymeleaf</h1>
+<h3>第一条数据</h3>
+<span th:text="${mykey}"></span>
+
+<h1>表达式</h1>
+<h3>标准变量表达式</h3>
+<p>test</p>
+姓名：<span th:text="${user.name}"></span><br>
+<!--年龄：<p th:text="${user.age}"></p>-->
+年龄：<span th:text="${user.age}"></span><br>
+性别：<span th:text="${user.sex}"></span>
+
+<h3>选择变量表达式</h3>
+<!--
+        语法格式：*{属性名/方法名()}
+        选择变量表示不能单独使用，必须配合th:object属性一起使用
+        th:object 用于获取一个对象，然后在th:object属性所寄托的这个标签对的范围内可以直接使用*{属性名/方法名()}
+        来直接访问th:object所获取的这个对象中的任意一个属性或调用任意一个方法
+        注意：
+            1、在th:object的标签范围内可以使用${}也可以使用*{},因此选择变量表达式没有一个特定的使用场景
+            而且使用环境也受限因此不推荐使用
+     -->
+<div th:object="${user}">
+    姓名：<span th:text="*{name}"></span><br>
+    年龄：<span th:text="*{age}"></span><br>
+    性别：<span th:text="*{sex}"></span><br>
+    姓名：<span th:text="${user.name}"></span><br>
+    年龄：<span th:text="${user.age}"></span><br>
+    性别：<span th:text="${user.sex}"></span>
+</div>
+
+<a th:href="@{http://www.baidu.com}">百度</a><br>
+<a th:href="@{/bb/test2}">当前项目下的相对路径</a><br><!--推荐使用 -->
+
+<hr>
+
+<h1>常见属性</h1>
+<h3>th:src</h3>
+<!--
+        th:src与th:href与th:action都表示一个资源路径
+        如果指向的资源是一个静态资源那么这个资源必须要放到resource目录下的static目录中
+        这个目录是静态资源的根路径
+     -->
+<img th:src="@{/001.jpg}" alt="" width="80px">
+<h3>th:value</h3>
+<!--
+       语法格式：
+        th:value="${变量名}"
+        作用配合标准变量表达式来动态设置表单元素的默认值，比较适合应用在数据修改中
+        注意：
+          1、修改数据时像单选按钮（radio） 和复选按钮（checkbox） 以及下拉菜单（select）就不适合使用th:value
+          来设置数据的默认值，因为这3个标签需要通过其他的属性来设置默认的选中状态
+     -->
+<form th:action="@{/update}" method="post">
+    姓名：<input type="text" name="username" id="username" th:value="${user.name}"><br>
+
+    年龄：<input type="text" name="age" id="age" th:value="${user.age}"><br>
+    性别：<input type="radio" name="sex"  th:value="1">男
+          <input type="radio" name="sex" th:value="2">女
+    <br>
+    <input type="submit" value="修改">
+</form>
+
+<h3>th:attr</h3>
+<!--
+        语法格式：
+          th:attr="属性名=属性值"
+         作用是用来动态设置当前html标签的任意一个属性的属性值，这个属性包括html自带的属性以及自定义的属性
+         注意：
+          1、属性值可以是一个固定的常量也可以是利用标准变量表达式获取出来的动态数据
+          2、th:attr通常应用在一些自定义属性中，或一些特殊属性例如checked或selected
+     -->
+<input type="text"  th:attr="value=1">
+<input type="text"  th:attr="value=${user.name}">
+
+<h3>th:each迭代List集合</h3>
+<table border="1px">
+    <tr>
+        <td>序号</td>
+        <td>姓名</td>
+        <td>年龄</td>
+        <td>性别</td>
+        <td>操作</td>
+        <td>操作</td>
+    </tr>
+    <tr th:each="user:${lists}">
+        <td th:text="${userStat.count}">序号</td>
+        <td th:text="${user.name}">姓名</td>
+        <td th:text="${user.age}">年龄</td>
+        <td th:text="${user.sex}">性别</td>
+        <td>
+            <input type="button" th:value="删除">
+            <input type="button" th:value="修改">
+        </td>
+        <td><a th:href="@{/delete}">删除</a>
+        <a th:href="@{/update}">修改</a></td>
+    </tr>
+</table>
+
+
+</body>
+</html>

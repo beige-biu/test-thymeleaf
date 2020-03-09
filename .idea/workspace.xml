@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="685bf934-9dc3-4c75-8e71-5ac7d20243d4" name="Default Changelist" comment="测试">
+      <change afterPath="$PROJECT_DIR$/02-springboot-web/src/main/java/com/wenyu/springboot/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-springboot-web/src/main/webapp/WEB-INF/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-springboot-mybatis/GeneratorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/controller/StuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/service/StuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-springboot-mybatis02/GeneratorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/controller/StuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/service/StuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/resources/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-springboot-all/GeneratorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/controller/StuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/service/StuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-value/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-value/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/01-value/target/" />
+    <ignored path="$PROJECT_DIR$/readlinelist/target/" />
+    <ignored path="$PROJECT_DIR$/01-springboot-config/target/" />
+    <ignored path="$PROJECT_DIR$/02-springboot-web/target/" />
+    <ignored path="$PROJECT_DIR$/03-springboot-web02/target/" />
+    <ignored path="$PROJECT_DIR$/05-springboot-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/06-springboot-mybatis02/target/" />
+    <ignored path="$PROJECT_DIR$/07-springboot-thymeleaf/target/" />
+    <ignored path="$PROJECT_DIR$/08-springboot-all/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springbootlearn" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-springboot-all/GeneratorMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="37" column="66" lean-forward="true" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/controller/StuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-345">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/model/Stu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/service/StuService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/mapper/StuMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/mapper/StuMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/student.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bjpowernode</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01-springboot-config/src/main/java/com/wenyu/springboot/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/01-springboot-config/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/02-springboot-web/src/main/webapp/WEB-INF/JSP/success.jsp" />
+        <option value="$PROJECT_DIR$/02-springboot-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/02-springboot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/02-springboot-web/src/main/java/com/wenyu/springboot/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/java/com/wenyu/springboot/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/java/com/wenyu/springboot/Application.java" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/java/com/mysql/cj/jdbc/Driver.java" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/GeneratorMapper.xml" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/pom.xml" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/java/com/wenyu/springboot/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/java/com/wenyu/springboot/mapper/studentMapper.java" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/java/com/wenyu/springboot/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/java/com/wenyu/springboot/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/03-springboot-web02/src/main/java/com/wenyu/springboot/mapper/studentMapper.xml" />
+        <option value="$PROJECT_DIR$/05-springboot-mybatis/GeneratorMapper.xml" />
+        <option value="$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/controller/StuController.java" />
+        <option value="$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/service/StuService.java" />
+        <option value="$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/mapper/stuMapper.java" />
+        <option value="$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/05-springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/06-springboot-mybatis02/GeneratorMapper.xml" />
+        <option value="$PROJECT_DIR$/05-springboot-mybatis/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/06-springboot-mybatis02/pom.xml" />
+        <option value="$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/controller/StuController.java" />
+        <option value="$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/service/StuService.java" />
+        <option value="$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/mapper/StuMapper.java" />
+        <option value="$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/mapper/StuMapper.xml" />
+        <option value="$PROJECT_DIR$/06-springboot-mybatis02/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/model/Student.java" />
+        <option value="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/model/User.java" />
+        <option value="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/resources/templates/index2.html" />
+        <option value="$PROJECT_DIR$/07-springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/07-springboot-thymeleaf/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/mapper/StuMapper.xml" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/model/Stu.java" />
+        <option value="$PROJECT_DIR$/08-springboot-all/pom.xml" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/mapper/StuMapper.java" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/update.html" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/add.html" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/student.html" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/controller/StuController.java" />
+        <option value="$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/service/StuService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/develop/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="G:\develop\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_30.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_30.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_30.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_3_BUILD_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_3_BUILD_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_3_BUILD_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_3_RELEASE.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="214" />
+    <option name="y" value="78" />
+    <option name="width" value="1173" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springbootlearn" type="58d84e3e:PackageViewProjectNode" />
+              <item name="03-springboot-web02" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="springbootlearn" type="58d84e3e:PackageViewProjectNode" />
+              <item name="03-springboot-web02" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="springbootlearn" type="58d84e3e:PackageViewProjectNode" />
+              <item name="03-springboot-web02" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="wenyu" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="springbootlearn" type="58d84e3e:PackageViewProjectNode" />
+              <item name="03-springboot-web02" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="wenyu" type="1f31426a:PackageElementNode" />
+              <item name="springboot" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27835053" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.wenyu.springboot.service.impl" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wenyu.springboot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\springbootlearn\02-springboot-web\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wenyu.springboot.bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\springbootlearn\08-springboot-all\src\main\resources\templates" />
+      <recent name="E:\Project\springbootlearn\08-springboot-all" />
+      <recent name="E:\Project\springbootlearn\07-springboot-thymeleaf\src\main\resources\static" />
+      <recent name="E:\Project\springbootlearn\06-springboot-mybatis02" />
+      <recent name="E:\Project\springbootlearn\05-springboot-mybatis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.13601236" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="08-springboot-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wenyu.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenyu.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="06-springboot-mybatis02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wenyu.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenyu.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="07-springboot-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wenyu.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenyu.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadlinelistApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="readlinelist" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenyu.manning.ReadlinelistApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.Application (5)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="685bf934-9dc3-4c75-8e71-5ac7d20243d4" name="Default Changelist" comment="" />
+      <created>1579247187540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579247187540</updated>
+      <workItem from="1579247191554" duration="2519000" />
+      <workItem from="1581486608499" duration="2554000" />
+      <workItem from="1581560905284" duration="10641000" />
+      <workItem from="1581658195879" duration="11000" />
+      <workItem from="1581664939324" duration="1340000" />
+      <workItem from="1581915973494" duration="1534000" />
+      <workItem from="1581917538494" duration="497000" />
+      <workItem from="1581918055545" duration="188000" />
+      <workItem from="1581918262798" duration="4663000" />
+      <workItem from="1581926308257" duration="671000" />
+      <workItem from="1581987860001" duration="5579000" />
+      <workItem from="1582000733008" duration="5993000" />
+      <workItem from="1582087584795" duration="647000" />
+      <workItem from="1582175389052" duration="6902000" />
+      <workItem from="1582244973564" duration="3636000" />
+      <workItem from="1582262621564" duration="7468000" />
+      <workItem from="1582330752482" duration="5224000" />
+      <workItem from="1582511590310" duration="3644000" />
+      <workItem from="1582520168238" duration="2080000" />
+      <workItem from="1582532654787" duration="369000" />
+      <workItem from="1582594636782" duration="15804000" />
+      <workItem from="1582765277005" duration="17092000" />
+      <workItem from="1582856200725" duration="6048000" />
+      <workItem from="1582939577682" duration="41000" />
+      <workItem from="1582939643498" duration="17000" />
+      <workItem from="1582941280274" duration="21000" />
+      <workItem from="1583713170663" duration="1428000" />
+    </task>
+    <task id="LOCAL-00001" summary="测试代码提交">
+      <created>1582010360330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582010360330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试">
+      <created>1582011052923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582011052923</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试">
+      <created>1582012360239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582012360239</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试">
+      <created>1582012791977</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582012791977</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="106611000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.2677761" />
+      <window_info id="Structure" order="1" sideWeight="0.501634" side_tool="true" weight="0.28744328" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.501634" side_tool="true" weight="0.28744328" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.65139115" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5620272" side_tool="true" weight="0.3747954" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Problems" order="12" weight="0.32569557" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Database Changes" order="14" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.2246596" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.43797275" weight="0.37315875" />
+      <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.22541603" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.24508321" />
+      <window_info id="Structure" order="1" sideWeight="0.501634" side_tool="true" weight="0.28744328" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.501634" side_tool="true" weight="0.28744328" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.65139115" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.4680851" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Problems" order="12" weight="0.32733223" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Database Changes" order="14" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.2246596" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.39183056" visible="true" weight="0.4140753" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.22541603" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试代码提交" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/03-springboot-web02/GeneratorMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-springboot-web02/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-springboot-web02/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/mapper/stuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/service/StuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/model/stu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/controller/StuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/src/main/java/com/wenyu/springboot/mapper/stuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/GeneratorMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-springboot-web02/src/main/java/com/wenyu/springboot/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/GeneratorMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/model/Stu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/mapper/StuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/mapper/StuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/service/StuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-springboot-mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/src/main/java/com/wenyu/springboot/controller/StuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-springboot-thymeleaf/src/main/resources/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-springboot-mybatis02/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="26" column="283" selection-start-line="26" selection-start-column="283" selection-end-line="26" selection-end-column="283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="20" column="219" selection-start-line="20" selection-start-column="219" selection-end-line="20" selection-end-column="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="133" column="258" selection-start-line="133" selection-start-column="258" selection-end-line="133" selection-end-column="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="17" column="239" selection-start-line="17" selection-start-column="239" selection-end-line="17" selection-end-column="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-springboot-thymeleaf/src/main/java/com/wenyu/springboot/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-springboot-thymeleaf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-springboot-thymeleaf/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/GeneratorMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="37" column="66" lean-forward="true" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/service/impl/StuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/model/Stu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/mapper/StuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/mapper/StuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/service/StuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/resources/templates/student.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-springboot-thymeleaf/src/main/resources/static/001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-springboot-thymeleaf/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/java/com/wenyu/springboot/controller/StuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-springboot-all/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>03-springboot-web02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27835053" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.tomcat:tomcat-annotations-api:9.0.30</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27835053" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

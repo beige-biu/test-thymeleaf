@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="02-springboot-web" />
+        <module name="01-springboot-config" />
+        <module name="readlinelist" />
+        <module name="01-value" />
+        <module name="06-springboot-mybatis02" />
+        <module name="07-springboot-thymeleaf" />
+        <module name="08-springboot-all" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-springboot-config" target="1.8" />
+      <module name="01-value" target="1.8" />
+      <module name="02-springboot-web" target="1.8" />
+      <module name="03-springboot-web02" target="1.8" />
+      <module name="04-springboot-web03" target="1.8" />
+      <module name="05-springboot-mybatis" target="1.8" />
+      <module name="06-springboot-mybatis02" target="1.8" />
+      <module name="07-springboot-thymeleaf" target="1.8" />
+      <module name="08-springboot-all" target="1.8" />
+      <module name="readlinelist" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-springboot-config" options="-parameters" />
+      <module name="01-value" options="-parameters" />
+      <module name="02-springboot-web" options="-parameters" />
+      <module name="03-springboot-web02" options="-parameters" />
+      <module name="04-springboot-web03" options="-parameters" />
+      <module name="05-springboot-mybatis" options="-parameters" />
+      <module name="06-springboot-mybatis02" options="-parameters" />
+      <module name="07-springboot-thymeleaf" options="-parameters" />
+      <module name="08-springboot-all" options="-parameters" />
+      <module name="readlinelist" options="-parameters" />
+    </option>
+  </component>
+</project>
