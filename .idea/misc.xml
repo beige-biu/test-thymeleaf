@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/06-springboot-mybatis02/pom.xml" />
         <option value="$PROJECT_DIR$/07-springboot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/08-springboot-all/pom.xml" />
+        <option value="$PROJECT_DIR$/09-springboot-interceptors/pom.xml" />
+        <option value="$PROJECT_DIR$/10-springboot-weball/pom.xml" />
       </list>
     </option>
   </component>

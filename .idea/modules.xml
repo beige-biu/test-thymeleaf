@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/06-springboot-mybatis02/06-springboot-mybatis02.iml" filepath="$PROJECT_DIR$/06-springboot-mybatis02/06-springboot-mybatis02.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-springboot-thymeleaf/07-springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/07-springboot-thymeleaf/07-springboot-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-springboot-all/08-springboot-all.iml" filepath="$PROJECT_DIR$/08-springboot-all/08-springboot-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-springboot-interceptors/09-springboot-interceptors.iml" filepath="$PROJECT_DIR$/09-springboot-interceptors/09-springboot-interceptors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-springboot-weball/10-springboot-weball.iml" filepath="$PROJECT_DIR$/10-springboot-weball/10-springboot-weball.iml" />
       <module fileurl="file://$PROJECT_DIR$/readlinelist/readlinelist.iml" filepath="$PROJECT_DIR$/readlinelist/readlinelist.iml" />
     </modules>
   </component>
