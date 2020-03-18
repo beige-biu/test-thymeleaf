@@ -51,10 +51,15 @@ public class StuController {
         return "redirect:/";
     }
 
+    @RequestMapping("/toadd")
+    public String toadd(){
+        return "add";
+    }
+
     @RequestMapping("/add")
     public String add( Stu stu){
         stuService.add(stu);
-        return "add";
+        return "redirect:/";
     }
 
 

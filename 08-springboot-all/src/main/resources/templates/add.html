@@ -8,8 +8,8 @@
 <h1>添加用户</h1>
 
 <form th:action="@{/add}" method="post">
-    姓名：<input type="text" name="name" th:value="${stu.name}"autocomplete="off"><br>
-    年龄：<input type="text" name="age" th:value="${stu.age}"autocomplete="off"><br>
+    姓名：<input type="text" name="name" autocomplete="off"><br>
+    年龄：<input type="text" name="age" autocomplete="off"><br>
 
     <input type="submit" value="提交">
 </form>
